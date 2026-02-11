@@ -87,6 +87,11 @@ main {
     filter: invert(1) grayscale(100%) brightness(200%);
 }
 
+.favorites-page .navbar {
+    background-color: white !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
 .hero-section {
     background: url('https://hips.hearstapps.com/hmg-prod/images/hbz-pfw-wrapup-lead-67d1a30bc901b.gif?crop=1xw:0.8888888888888888xh;center,top&resize=1200:*') no-repeat center center/cover;
     color: var(--light-bg);
