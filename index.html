@@ -8,38 +8,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 
-<body>
+<body class="home-page">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Baban's</a>
+            <a class="navbar-brand" href="index.html">Baban's</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#passions">Passions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="passions.html">Passions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="favorites.html">Favorites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="goals.html">Goals</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero-section">
-        <div class="container">
-            <h1 class="display-3 fw-bold">Welcome to Baban's</h1>
-            <p class="lead">who I am, what I love, and where I'm going.</p>
-            <button class="btn btn-custom btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#aboutModal">
-                Learn More About Me
-            </button>
-        </div>
-    </header>
+    <main>
+        <!-- Hero Section -->
+        <header class="hero-section">
+            <div class="container">
+                <h1 class="display-3 fw-bold">Welcome to Baban's</h1>
+                <p class="lead">who I am, what I love, and where I'm going.</p>
+                <button class="btn btn-custom btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#aboutModal">
+                    Learn More About Me
+                </button>
+            </div>
+        </header>
 
+    </main>
     <!-- Modal -->
     <div class="modal fade" id="aboutModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -59,134 +62,13 @@
         </div>
     </div>
 
-    <!-- Cards -->
-    <section id="passions" class="container my-5">
-        <div class="text-center">
-            <h2 class="section-title">Passions & Hobbies</h2>
-        </div>
-        <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNG5xOWxtd3k4b3MxMnp0ZHl6c2NnaGxremV2Z3Bmcmx4ZGN6cmhpeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41Yfg75UAtqq5uBq/giphy.gif"
-                        class="card-img-top" alt="Ralph Lauren Fashion" style="height: 200px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Fashion</h5>
-                        <p class="card-text">My go-to brands are Ralph Lauren, Chanel, Tommy Hilfiger, and Calvin
-                            Klein.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzQ2eHV2cWtyOWZ2ODI0ODZ0N2xlNTV2Zzhia2g2dm5qbzA2OTUyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11ikeVaUfcXLWM/giphy.gif"
-                        class="card-img-top" alt="Writing" style="height: 200px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Writing</h5>
-                        <p class="card-text">I tend to always write my thoughts so I won't forget them.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExam40dXozNml6MXJlbGwyZjFzeWlvenlwMjIydmhrMjl5Z2VoZmw5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pEGIFM7NMgWVG/giphy.gif"
-                        class="card-img-top" alt="Playing the Piano" style="height: 200px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Playing the Piano</h5>
-                        <p class="card-text">If I were in the mood to play, I always play Virginio Aiello by Van Gogh.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Favorites -->
-    <section id="favorites" class="container my-5">
-        <div class="row align-items-center">
-            <div class="col-md-6 mb-4">
-                <h2 class="section-title">Favorite Music Titles</h2>
-                <ul class="list-group list-group-flush rounded">
-                    <li class="list-group-item bg-transparent border-secondary"><i class="fas fa-music me-2"></i>
-                        Cookie - NewJeans</li>
-                    <li class="list-group-item bg-transparent border-secondary"><i class="fas fa-music me-2"></i>
-                        Take A Chance With Me - NIKI</li>
-                    <li class="list-group-item bg-transparent border-secondary"><i class="fas fa-music me-2"></i>
-                        Backburner - NIKI</li>
-                    <li class="list-group-item bg-transparent border-secondary"><i class="fas fa-music me-2"></i>
-                        Hurt - NewJeans</li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <div class="p-4 rounded" style="background-color: var(--accent-color);">
-                    <h3 class="mb-3 text-center">Dream Places</h3>
-                    <p class="text-center">If I have the money, I would live in:</p>
-                    <div class="d-flex justify-content-center gap-3 flex-wrap">
-                        <span class="badge rounded-pill bg-primary p-3">Via Montenapoleone, Milan</span>
-                        <span class="badge rounded-pill bg-primary p-3">Palais de Tokyo, Paris</span>
-                        <span class="badge rounded-pill bg-primary p-3">The Hamptons, New York</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Goals & Bucket List -->
-    <section id="goals" class="container my-5">
-        <div class="text-center">
-            <h2 class="section-title">Goals & Bucket List</h2>
-        </div>
-        <div class="accordion" id="goalsAccordion">
-            <div class="accordion-item border-secondary">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#goal1">
-                        Short Term Goals
-                    </button>
-                </h2>
-                <div id="goal1" class="accordion-collapse collapse" data-bs-parent="#goalsAccordion">
-                    <div class="accordion-body">
-                        Master programming, read 10 books this year, and learn to cook 5 new dishes.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item border-secondary">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#goal2">
-                        Long Term Aspirations
-                    </button>
-                </h2>
-                <div id="goal2" class="accordion-collapse collapse" data-bs-parent="#goalsAccordion">
-                    <div class="accordion-body">
-                        Start my own business brand, to be invited to the Paris Fashion Week, and build a sustainable
-                        home.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item border-secondary">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#goal3">
-                        Bucket List
-                    </button>
-                </h2>
-                <div id="goal3" class="accordion-collapse collapse" data-bs-parent="#goalsAccordion">
-                    <div class="accordion-body">
-                        Own a property in the Hamptons, buy a Rolls-Royce, and travel to every country in the world.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Baban's. Built by Danielle Yvan Senador</p>
+            <p>&copy; 2026 Baban's. Built by Baban.</p>
         </div>
     </footer>
 
