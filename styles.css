@@ -1,18 +1,11 @@
 :root {
     --primary-color: #285570;
-    /* Deep Teal */
     --secondary-color: #333333;
-    /* Dark Grey */
     --accent-color: #e3ded7;
-    /* Light Beige */
     --light-bg: #faf7f6;
-    /* Off-White */
     --card-bg: #FFFFFF;
-    /* White */
     --text-color: #333333;
-    /* Dark Grey Text */
     --text-muted: #cbcac7;
-    /* Light Grey */
 }
 
 body {
@@ -22,7 +15,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Bootstrap Overrides to match theme */
 .bg-primary {
     background-color: var(--primary-color) !important;
 }
